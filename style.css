@@ -16,6 +16,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: #F07942;
 }
 
 #page-loading-blocs-notifaction {
@@ -56,6 +57,10 @@ a:hover {
     padding: 20px 50px;
 }
 
+.mtm{
+    margin-top: 40px;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -90,10 +95,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
 
 .b-parallax {
     background-attachment: fixed;
@@ -270,6 +271,11 @@ a:hover {
 
 .voffset-lg {
     margin-top: 80px;
+
+}
+
+.voffset-lg  .italic{
+    font-style: italic;
 }
 
 .row-no-gutters {
@@ -284,7 +290,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .navbar {
@@ -305,6 +311,9 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+}
+.navbar-brand img:hover{
+    opacity: 0.5;
 }
 
 .navbar-brand img[src$=svg] {
@@ -332,9 +341,10 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-    background: transparent;
+.nav li a:hover,
+.nav li a:focus {
+    color: #FFFFFF!important;
+    background:#F07942;
 }
 
 .navbar-toggle {
@@ -501,6 +511,24 @@ button {
     border-radius: 29px 29px 0 0;
 }
 
+.footer-head {
+    color: #ffffff!important;
+    font-size: 16px;
+}
+
+footer ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footer-link{
+    color: #ffffff!important;
+    font-size: 14px;
+}
+
+.footer-link:hover{
+    color: #F07942!important;
+}
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
 }
@@ -508,6 +536,8 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    color: #000000;
+    border: 2px solid #364577;
 }
 
 .scrollToTop {
@@ -651,7 +681,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -659,7 +689,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 80px;
 }
 
 .hero-bloc-text-sub {
@@ -677,11 +707,11 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto auto auto auto;
 }
 
@@ -694,18 +724,40 @@ p {
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
+    padding: 15px 35px 15px 35px;
+    background-color: #364577;
     font-size: 1.0em;
     font-weight: 700;
+}
+
+.cta-hero:hover{
+    background-color: #F07942;
 }
 
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}  
+
+span.fa.fa-twitter:hover{
+    color: #00acee;
+}
+
+span.fa.fa-facebook:hover{
+    color: #4267B2;
+}
+
+span.fa.fa-dribbble:hover{
+    color: #ea4c89;
+}
+
+span.fa.fa-instagram:hover{
+    color: #d6249f;
+    
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 35px;
     line-height: 1.4em;
 }
 
@@ -737,6 +789,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 15px;
 }
 
 .portfolio-thumb {
@@ -763,7 +816,7 @@ h4 {
 }
 
 .service-header {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -777,20 +830,22 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #F07942;
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #F07942;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    transform: scale(1.25);
+    transition: 3ms ease-in-out;
+    background: #ed2512!important;
     color: #FFFFFF!important;
 }
 
@@ -799,15 +854,15 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #F07942!important;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F07942!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #F07942!important;
 }
 
 .icon-dark-slate-blue {
@@ -824,11 +879,12 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/atlantamadesign.jpg");
 }
 
+
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlantamadesignorange.jpg");
 }
 
 @media (max-width: 1024px) {
