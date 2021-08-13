@@ -16,7 +16,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-    color: #F07942;
+    color: #E94200;
 }
 
 #page-loading-blocs-notifaction {
@@ -344,7 +344,7 @@ a:hover {
 .nav li a:hover,
 .nav li a:focus {
     color: #FFFFFF!important;
-    background:#F07942;
+    background:#E94200;
 }
 
 .navbar-toggle {
@@ -528,7 +528,7 @@ footer ul{
 }
 
 .footer-link:hover{
-    color: #979797!important;
+    color: #E94200!important;
 }
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
@@ -732,7 +732,7 @@ p {
 }
 
 .cta-hero:hover{
-    background-color: #F07942;}
+    background-color: #E94200;}
 
 .social {
     max-width: 400px;
@@ -830,7 +830,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F07942;
+    background-color: #E94200;
 }
 
 .tc-white {
@@ -838,7 +838,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F07942;
+    background: #E94200;
     color: #FFFFFF!important;
 }
 
@@ -854,15 +854,15 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #F07942!important;
+    color: #E94200!important;
 }
 
 .ltc-atomic-tangerine {
-    color: #F07942!important;
+    color: #E94200!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #F07942!important;
+    color: #E94200!important;
 }
 
 .icon-dark-slate-blue {
