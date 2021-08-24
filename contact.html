@@ -14,27 +14,28 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
-    
-	<defer script src="./js/jquery-2.1.0.min.js"></script>
-	<defer script src="./js/bootstrap.min.js"></script>
-	<defer script src="./js/blocs.min.js"></script>
-	<defer script src="./js/jqBootstrapValidation.min.js"></script>
-	<defer script src="./js/formHandler.js"></script>
+  	<!--Asynchronous execution : The execution order is not important and the scripts can be executed as soon as they are available-->
+	<!--Deferred execution: The order of the scripts is important and they must be executed after the HTML is fully loaded.-->  
+	<script type="text/javascript" async src="./js/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" async src="./js/bootstrap.min.js"></script>
+	<script type="text/javascript" async src="./js/blocs.min.js"></script>
+	<script type="text/javascript" async src="./js/jqBootstrapValidation.min.js"></script>
+	<script type="text/javascript" async src="./js/formHandler.min.js"></script>
   
 	<title>GO Mike Designs</title>
    
-<!-- Analytics -->
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<!--asynchronous execution: If the execution order is not important and the scripts can be executed as soon as they are available.-->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KWCBNQNXRK"></script>
+ <!-- Google Analytics -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KWCBNQNXRK');
-</script>
-<!-- Analytics END -->   
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	ga('create', 'UA-281613847-Y', 'auto');
+	ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+<!-- Analytics END -->  
 </head>
 
 <body>
