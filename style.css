@@ -564,6 +564,7 @@ footer ul{
 
 ..scrollToTop:hover{
     opacity: 0.5;
+    color: #E94200;
 }
 
 a[data-lightbox] {
