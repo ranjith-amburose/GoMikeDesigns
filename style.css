@@ -562,7 +562,7 @@ footer ul{
     opacity: 1;
 }
 
-.scrollToTop:hover{
+.btn.btn-d.scrollToTop:hover{
     opacity: 0.5;
     color: #E94200;
 }
