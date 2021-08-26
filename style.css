@@ -562,6 +562,10 @@ footer ul{
     opacity: 1;
 }
 
+..scrollToTop:hover{
+    opacity: 0.5;
+}
+
 a[data-lightbox] {
     position: relative;
     display: block;
